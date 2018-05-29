@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <!-- lightgallery css -->
+    <link rel="stylesheet" type="text/css" href="lightgallery/css/lightgallery.min.css">
+    <!-- lightgallery js -->
+    <script src="lightgallery/js/picturefill.min.js"></script>
+    <script src="lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="lightgallery/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $('#lightgallery').lightGallery();
+      });
+    </script>
+ 
+    <title>電子相簿</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="my-4 text-center text-lg-left">電子相簿</h1>
+      <div class="row" id="lightgallery">
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/img01.jpg" data-sub-html="<h4>相片標題</h4><p>相片說明</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/img01.jpg" alt="img01">
+          </a>
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-xs-6" data-src="img/img01.jpg" data-sub-html="<h4>相片標題</h4><p>相片說明</p>">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="img/img01.jpg" alt="img01">
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>
