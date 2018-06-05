@@ -21,7 +21,11 @@
     <script src="lightgallery/js/jquery.mousewheel.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function(){
-        $('#lightgallery').lightGallery();
+        $('#lightgallery').lightGallery({          
+          thumbnail:true,
+          animateThumb: true,        //略縮圖動畫
+          showThumbByDefault: false  //預設出現略縮圖
+        });
       });
     </script>
     <style type="text/css">
