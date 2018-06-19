@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- lightgallery css -->
+    <link rel="stylesheet" type="text/css" href="lightgallery/css/lightgallery.min.css">
+    <!-- lightgallery js -->
+    <script src="lightgallery/js/picturefill.min.js"></script>
+    <script src="lightgallery/js/lightgallery-all.min.js"></script>
+    <script src="lightgallery/js/jquery.mousewheel.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('#lightgallery').lightGallery({
+          thumbnail:true
+        });
+      });
+    </script>
+
+ 
+    <title>Bootstrap 電子相簿</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>電子相簿</h2>
+      <div class="row" id="lightgallery">
+        
+        <!-- item -->
+        <div class="col-sm-6 col-md-4 col-lg-3" data-src="img/img01.jpg" data-sub-html="<h4>標題1</h4><p>內容1</p>" data-poster="img/img01.jpg" data-src="https://youtu.be/noUKF2g05Bs">
+          <div class="card">
+            <img class="card-img-top" src="img/img01.jpg" alt="img01">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item end -->
+
+        <!-- item -->
+        <div class="col-sm-6 col-md-4 col-lg-3" data-src="img/img01.jpg" data-sub-html="<h4>標題1</h4><p>內容1</p>">
+          <div class="card">
+            <img class="card-img-top" src="img/img01.jpg" alt="img01">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+        </div>
+        <!-- item end -->
+      </div>
+    </div>
+ 
+  </body>
+</html>
