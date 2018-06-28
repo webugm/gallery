@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"
+      integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
+      crossorigin="anonymous"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+    
+    <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+    <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
+    <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' />
+
+    <script type="text/javascript"> 
+      
+      jQuery(document).ready(function(){ 
+        jQuery("#gallery").unitegallery(); 
+      }); 
+    
+    </script> 
+ 
+    <title>Bootstrap 離線版</title>
+  </head>
+  <body>
+
+    <div class="container">
+    </div>
+ 
+      <h1 class="my-4">電子相簿</h1>
+      <div id="gallery" style="display:none;">
+          
+            <img alt="Image 1 Title" src="img/img01.jpg"
+              data-image="img/img01.jpg"
+              data-description="Image 1 Description">
+            
+            <img alt="Image 2 Title" src="img/img02.jpg"
+              data-image="img/img02.jpg"
+              data-description="Image 2 Description">
+
+            
+            <a href="http://unitegallery.net">
+            <img alt="Lemon Slice"
+                 src="img/img01.jpg"
+                 data-image="img/img01.jpg"
+                 data-description="This is a Lemon Slice"
+                 style="display:none">
+            </a>
+          
+          </div>
+  </body>
+</html>
